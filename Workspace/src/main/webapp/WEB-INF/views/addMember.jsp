@@ -6,6 +6,20 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
+
+<style>
+*{
+    margin: 3px;
+    padding:0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+}
+
+
+</style>
 <body>
 <form action="insertStud">
 	<table>

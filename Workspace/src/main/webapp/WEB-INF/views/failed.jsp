@@ -8,7 +8,7 @@
 </head>
 <style>
 *{
-    margin: 100px;
+    margin: 25px;
     padding:0;
     text-align: center;
     justify-content: center;
@@ -16,8 +16,13 @@
     font-family: 'Times New Roman', Times, serif;
     font-size:xx-large;
 }
+.img1{
+    width:200;
+    height:200px;
+}
 </style>
 <body>
+<img class = "img1" src="/Workspace/src/main/webapp/images/fail.jpg" alt="">
 <h1 style="color: red">Invalid Workspace name!!!</h1>
 <jsp:include page="/index.jsp"></jsp:include>
 </body>

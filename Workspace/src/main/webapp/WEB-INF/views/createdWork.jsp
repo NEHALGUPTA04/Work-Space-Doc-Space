@@ -9,9 +9,7 @@
 
 <style>
 *{
-    margin: 100px;
-
-
+    margin: 10px;
     padding:0;
     text-align: center;
     justify-content: center;
@@ -24,8 +22,13 @@
     font-size: large;
     font-style: italic;
 }
+.img1{
+    height:300px;
+    width:500px;
+}
 </style>
 <body>
+<img class = "img1" src="/Workspace/src/main/webapp/images/added.jpg" alt="">
 <h1>WorkSpace created</h1>
 <h3><a href="addMember">Add Members</a></h3>
 </body>
