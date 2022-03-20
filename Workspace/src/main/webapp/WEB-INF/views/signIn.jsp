@@ -30,8 +30,8 @@ body{
     justify-content: center;
 }
 .logo1{
-    width:300px;
-    height:240px;
+    width:350px;
+    height:300px;
 }
 
 </style>
@@ -41,7 +41,8 @@ body{
         <img class="logo" src="/Workspace/src/main/webapp/images/logo2.png"/>
         <h3 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Doc-Space </h3>
     </div>
-    <img class="logo1" src="/Workspace/src/main/webapp/images/Welcome-back.jpg.crdownload"/>
-    <h1 style="color: green">Welcome ${USERNAME } to Your Workspace !!</h1>
+    <br>
+    <img class="logo1" src="/Workspace/src/main/webapp/images/Welcome-back.jpg"/>  <br><br>
+<h2 style="color: black">Welcome ${USERNAME } to Your Workspace !!</h2>
 </body>
 </html>
