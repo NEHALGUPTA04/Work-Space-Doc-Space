@@ -13,6 +13,9 @@
     padding:0;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
 }
 body{
     margin-top: 54px;
@@ -55,8 +58,12 @@ body{
     background-color: rgb(35, 35, 100);
     color: white;
     border: 2px solid rgb(35, 35, 100);
-    height: 25px;width: 100px;
+    height: 35px;width: 130px;
 
+  }
+  .img1{
+      width: 400px;
+      height: 300px;
   }
   
   .button1:hover {
@@ -76,12 +83,13 @@ body{
         </div><br>
         
         <h2> Create a new workspace </h2><br>
-        <p class  = p1>Enter Name of Your Workspace</p>
+        <p class  = p1>Enter Name of Your Workspace</p> <br>
+        <img class="img1" src="images/doc1.jpg"/> <br><br>
         <form action="newWork" method="post">
         	<input type="text" name="workSpaceName">
         	<input type="submit" value="Continue" class="button button1">
         </form>
-        <img class="img1" src="images/doc1.jpg"/> <br><br>
+       
         
     </div>
 
