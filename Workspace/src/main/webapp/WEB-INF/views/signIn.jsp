@@ -30,7 +30,7 @@ body{
     justify-content: center;
 }
 .logo1{
-    width:250px;
+    width:300px;
     height:240px;
 }
 
