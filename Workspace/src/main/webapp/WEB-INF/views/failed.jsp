@@ -20,6 +20,16 @@
     width:200;
     height:200px;
 }
+ .logo{
+    height: 30px;
+    width: 30px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
 </style>
 <body>
 <img class = "img1" src="/Workspace/src/main/webapp/images/fail.jpg" alt="">

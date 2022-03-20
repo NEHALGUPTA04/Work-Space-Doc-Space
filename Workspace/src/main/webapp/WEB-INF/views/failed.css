@@ -5,9 +5,18 @@
     justify-content: center;
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size:xx-large;
+    font-size:x-large;
 }
 .img1{
     width:200;
     height:200px;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
 }
