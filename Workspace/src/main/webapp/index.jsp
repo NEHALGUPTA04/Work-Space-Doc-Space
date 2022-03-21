@@ -42,12 +42,13 @@ body{
     color: rgb(23, 23, 172);
 }
 
+
 .button1 {
     background-color: rgb(35, 35, 100);
     color: white;
     border: 2px solid rgb(35, 35, 100);
-    height: 35px;width: 130px;
-
+    height: 35px;width: 200px;
+    font-size:x-large;
   }
   
   .button1:hover {
@@ -57,6 +58,13 @@ body{
   input{
     width: 200px;
   }
+  .exist{
+      font-size: smaller;
+  }
+.email{
+    width:350px;
+}
+
 </style>
 
 <body>
@@ -72,12 +80,12 @@ body{
             <label for="email">
                 <h5>Enter your workspace's URL</h5>
             </label> <br>
-            <input class="email" type="text" id="workSpaceName" name="workSpaceName"> <br>
+            <input class="email" type="text" placeholder="doc@space.com" id="workSpaceName" name="workSpaceName"> <br>
 			
             <label for="email">
                 <h5>Enter your name</h5>
             </label> <br>
-            <input class="email" type="text" id="studentName" name="studentName"> <br>
+            <input class="email" type="text" placeholder="John Jay" id="studentName" name="studentName"> <br>
             <input type="submit" value="Continue &rarr;" class="button button1">
         	</form>
 	        <br>
@@ -85,6 +93,8 @@ body{
 	                href="#"> Find your workspaces</a></h6>
 	        <h6 style="font-family:'Times New Roman', Times, serif">Looking to create a new workspace instead?
 	              <A HREF="createnew">Create a new Workspace</A></h6>
+                  <br><br><br>
+            <h6 class = "exist">Already Using Doc-Space ? <br> Sign in to existing workspace</h6>
               
 
     </nav>

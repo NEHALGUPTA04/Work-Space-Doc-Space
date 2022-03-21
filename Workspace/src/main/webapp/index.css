@@ -34,7 +34,8 @@ body{
     background-color: rgb(35, 35, 100);
     color: white;
     border: 2px solid rgb(35, 35, 100);
-    height: 35px;width: 130px;
+    height: 35px;width: 200px;
+    font-size:x-large;
 
   }
   
@@ -45,3 +46,9 @@ body{
   input{
     width: 200px;
   }
+  .exist{
+      font-size: smaller;
+  }
+.email{
+    width:350px;
+}
