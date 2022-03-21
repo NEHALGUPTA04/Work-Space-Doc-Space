@@ -1,5 +1,5 @@
 *{
-    margin: 25px;
+    margin: 15px;
     padding:0;
     text-align: center;
     justify-content: center;
@@ -23,4 +23,8 @@
 }
 .extra{
     font-size: large;
+}
+.h1{
+    font-size: small;
+
 }

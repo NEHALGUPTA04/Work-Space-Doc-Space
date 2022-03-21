@@ -32,13 +32,16 @@
 .extra{
     font-size: large;
 }
+.h1{font-size: small;
+
+}
 
 </style>
 <body>
     <div class="main">
         <img class="logo" src="/Workspace/src/main/webapp/images/logo2.png"/>
         <h3 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Doc-Space </h3>
-    </div>
+    </div><br>
     <img class = "img1" src="/Workspace/src/main/webapp/images/fail.jpg" alt="">
 <h1 style="color: rgb(75, 9, 9)">Invalid Workspace name!!!</h1>
 <br><br>
@@ -48,6 +51,11 @@
     Create a new Workspace <br>
     and start your journey with Doc-Space!! <br>
 </h6>
-<jsp:include page="/index.jsp"></jsp:include>
+</h6> <br><br> <br>
+<h6 class = "h1">
+    Terms & Privacy <br> <br>
+    Contact us
+
+</h6>
 </body>
 </html>

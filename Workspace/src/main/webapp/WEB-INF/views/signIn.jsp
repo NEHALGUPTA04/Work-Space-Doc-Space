@@ -33,6 +33,9 @@ body{
     width:300px;
     height:200px;
 }
+.h1{
+    font-size: small;
+}
 </style>
 <body>
 
@@ -42,17 +45,23 @@ body{
     </div>
     <img class="logo1" src="/Workspace/src/main/webapp/images/Welcome-back.jpg"/>  <br><br>
 <h2 style="color: black">Welcome ${USERNAME } to Your Workspace !!</h2>
-<br><br><br><br> <br>
+<br><br><br>
 <p> 
     <h3>
     This is your workspace. <br>You can add team members to your workspace. <br>
     Upload your documents and save them.<br> All your work done will be shared with your team only.
     </h3>
-    <br><br><br><br>
+    <br><br><br>
     <h3>
-        Want another Workspace and team ?
-        Ceate Your own workspace!! 
+        Want another Workspace and team ? <br>
+        Create your own workspace!! 
     </h3>
 </p>
+</h6> <br><br>
+<h6 class = "h1">
+    Terms & Privacy <br> <br>
+    Contact us
+
+</h6>
 </body>
 </html>

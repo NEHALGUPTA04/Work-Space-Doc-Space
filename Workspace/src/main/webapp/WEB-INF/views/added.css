@@ -1,5 +1,5 @@
 *{
-    margin:25px;
+    margin:15px;
     padding:0;
     text-align: center;
     justify-content: center;
@@ -15,8 +15,15 @@
 .main{
     display: flex;
     justify-content: center;
+    
 }
 .img1{
     width:100px;
     height:100px;
+}
+.h{
+    font-size: smaller;
+}
+.h1{font-size: small;
+
 }

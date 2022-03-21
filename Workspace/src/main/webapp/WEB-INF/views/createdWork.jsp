@@ -35,7 +35,9 @@
     display: flex;
     justify-content: center;
 }
+.h1{font-size: small;
 
+}
 </style>
 <body>
     <div class="main">
@@ -55,5 +57,11 @@
     All your work will be shared within yoour team  <br>
     Your all documents remain safe here!!
 </p>
+<br>
+    <h6 class = "h1">
+        Terms & Privacy <br> <br>
+        Contact us
+
+    </h6>
 </body>
 </html>

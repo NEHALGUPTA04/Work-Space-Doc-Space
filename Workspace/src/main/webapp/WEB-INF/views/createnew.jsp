@@ -77,6 +77,9 @@ body{
   .email{
     width: 200px;
   }
+  .h1{
+    font-size: small;
+}
 </style>
 <body>
     <div class = container>
@@ -97,6 +100,13 @@ body{
         </form>
         
     </div>
+       <br>
+<h6 class = "h1">
+    Terms & Privacy <br> <br>
+    Contact us
+
+</h6>
+
 
 </body>
 </html>
