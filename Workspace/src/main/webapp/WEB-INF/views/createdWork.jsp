@@ -38,8 +38,22 @@
 
 </style>
 <body>
-<img class = "img1" src="/Workspace/src/main/webapp/images/added.jpg" alt="">
-<h1>WorkSpace created</h1>
-<h3><a href="addMember">Add Members</a></h3>
+    <div class="main">
+        <img class="logo" src="/Workspace/src/main/webapp/images/logo2.png"/>
+        <h3 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Doc-Space </h3>
+    </div>
+    <img class = "img1" src="/Workspace/src/main/webapp/images/added1.jpg" alt="">
+<h1>Congratulations your WorkSpace has been created!!</h1> <br>
+<p>
+    <h5>
+        Experience more better with a team. <br>
+        Want to add members to your team ?
+    </h5>
+</p>
+<h5><a href="addMember">Add Members</a></h5>
+<p>
+    All your work will be shared within yoour team  <br>
+    Your all documents remain safe here!!
+</p>
 </body>
 </html>
