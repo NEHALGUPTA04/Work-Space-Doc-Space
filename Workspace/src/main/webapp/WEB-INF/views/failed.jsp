@@ -13,7 +13,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-family: 'Times New Roman', Times, serif;
+     font-family: 'Piazzolla', serif;
     font-size:xx-large;
 }
 .img1{
@@ -33,7 +33,7 @@
 </style>
 <body>
 <img class = "img1" src="/Workspace/src/main/webapp/images/fail.jpg" alt="">
-<h1 style="color: red">Invalid Workspace name!!!</h1>
+<h1 style="color: rgb(75, 9, 9)">Invalid Workspace name!!! <br><br> Try Again !!</h1>
 <jsp:include page="/index.jsp"></jsp:include>
 </body>
 </html>

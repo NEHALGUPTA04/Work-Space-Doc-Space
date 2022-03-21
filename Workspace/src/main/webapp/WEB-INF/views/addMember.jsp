@@ -14,7 +14,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-family: 'Times New Roman', Times, serif;
+     font-family: 'Piazzolla', serif;
     font-size:x-large;
 }
  .logo{

@@ -12,7 +12,7 @@
     margin: 3px;
     padding:0;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+     font-family: 'Piazzolla', serif;
     justify-content: center;
     align-items: center;
     font-size: x-large;
@@ -58,7 +58,7 @@ body{
     background-color: rgb(35, 35, 100);
     color: white;
     border: 2px solid rgb(35, 35, 100);
-    height: 35px;width: 130px;
+    height: 45px;width: 130px;
 
   }
   .img1{
@@ -78,18 +78,19 @@ body{
     <div class = container>
         
         <div class="main">
-            <img class="logo" src="C:/Users/hp/eclipse-workspace/Workspace/src/main/webapp/images/logo2.png"/>
+            <img class="logo" src="/Workspace/src/main/webapp/images/logo2.png"/>
             <h3 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Doc-Space </h3>
         </div><br>
         
-        <h2> Create a new workspace </h2><br>
-        <p class  = p1>Enter Name of Your Workspace</p> <br>
-        <img class="img1" src="images/doc1.jpg"/> <br><br>
+        <h2 class = "h2"> Want to use Doc-Space with different Team? <br>
+
+             <br>Create a new workspace here </h2>
+        <img class="img1" src="/Workspace/src/main/webapp/images/doc1.jpg"/> <br>
+        <p class  = p1>Enter Name of Your Workspace</p>
         <form action="newWork" method="post">
-        	<input type="text" name="workSpaceName">
+        	<input type="text" name="workSpaceName"> <br>
         	<input type="submit" value="Continue" class="button button1">
         </form>
-       
         
     </div>
 
