@@ -12,7 +12,7 @@
     margin: 3px;
     padding:0;
     text-align: center;
-     font-family: 'Piazzolla', serif;
+    font-family: 'Piazzolla', serif;
     justify-content: center;
     align-items: center;
     font-size: x-large;
@@ -28,8 +28,11 @@ body{
 .main{
     display: flex;
     justify-content: center;
+    
 }
-
+.input{
+    width : 400px;
+}
 /* .header img{
     float: left;
     width: 100px;
@@ -58,12 +61,13 @@ body{
     background-color: rgb(35, 35, 100);
     color: white;
     border: 2px solid rgb(35, 35, 100);
-    height: 45px;width: 130px;
+    height: 40px;width: 200px;
+    font-size:x-large;
 
   }
   .img1{
       width: 400px;
-      height: 300px;
+      height: 220px;
   }
   
   .button1:hover {
@@ -85,10 +89,10 @@ body{
         <h2 class = "h2"> Want to use Doc-Space with different Team? <br>
 
              <br>Create a new workspace here </h2>
-        <img class="img1" src="/Workspace/src/main/webapp/images/doc1.jpg"/> <br>
-        <p class  = p1>Enter Name of Your Workspace</p>
+        <img class="img1" src="/Workspace/src/main/webapp/images/doc1.jpg"/> <br> <br>
+        <p class  = p1>Enter Name of Your Workspace</p> <br>
         <form action="newWork" method="post">
-        	<input type="text" name="workSpaceName"> <br>
+        	<input class = "input" type="text" placeholder=" enter your work-space name" name="workSpaceName"> <br><br>
         	<input type="submit" value="Continue" class="button button1">
         </form>
         
