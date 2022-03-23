@@ -39,13 +39,13 @@
 
 
 
-# Other Project Detail
+# Other Project Details
 
 * https://drive.google.com/drive/folders/1k9jdYSLeVxZoxfOQZoKt-dI6Q_FsSysL
 
 
 
-# All the project code is present in the master branch of the repository
+## All the project code is present in the master branch of the repository
 
 * https://github.com/NEHALGUPTA04/Work-Space-Doc-Space/tree/master
 
