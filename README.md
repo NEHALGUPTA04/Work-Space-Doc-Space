@@ -19,10 +19,11 @@
 
 * HTML
 * CSS
-* JAVA
 * JSP
+* JAVA
 * SPRING
 * HIBERNATE
+* SQL
 
 
 
