@@ -15,11 +15,7 @@
     margin: 3px;
     padding:0;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Piazzolla', serif;
-    font-size:x-large;
-
+    font-family: 'Times New Roman', Times, serif;
 }
 body{
     margin-top: 54px;
@@ -37,7 +33,6 @@ body{
 .anchor1{
     color: rgb(23, 23, 172);
     
-    
 }
 .anchor2{
     color: rgb(23, 23, 172);
@@ -47,8 +42,7 @@ body{
     background-color: rgb(35, 35, 100);
     color: white;
     border: 2px solid rgb(35, 35, 100);
-    height: 35px;width: 200px;
-    font-size:x-large;
+    height: 25px;width: 100px;
 
   }
   
@@ -59,13 +53,6 @@ body{
   input{
     width: 200px;
   }
-  .exist{
-      font-size: smaller;
-  }
-.email{
-    width:350px;
-}
-
 </style>
 
 <body>
@@ -79,19 +66,19 @@ body{
 	        <h3>Sign in to your workspace</h3>
 	        <form action="workSpaceSignIn" method="post">
             <label for="email">
-                <h5>Enter your workspace's URL</h5>
-            </label> 
-            <input class="email" type="text" placeholder="doc@space.com" id="workSpaceName" name="workSpaceName"> <br>
+                <h5>Enter your Student's ID</h5>
+            </label> <br>
+            <input class="email" type="text" placeholder="doc@space.com" id="workSpaceName" name="studId"> <br>
 			
             <label for="email">
                 <h5>Enter your name</h5>
-            </label> 
-            <input class="email" type="text" placeholder="John Jay" id="studentName" name="studentName"> <br>
+            </label> <br>
+            <input class="email" type="text" placeholder="John Jay" id="studentName" name="studName"> <br>
             <input type="submit" value="Continue &rarr;" class="button button1">
         	</form>
 	        <br>
 	        <h6 style="font-family:'Times New Roman', Times, serif">Don't Know your workspace URL? <a class="anchor1"
-	                href="#"> Find your workspaces</a></h6>
+	                href="getAllWork"> Find your workspaces</a></h6>
 	        <h6 style="font-family:'Times New Roman', Times, serif">Looking to create a new workspace instead?
 	              <A HREF="createnew">Create a new Workspace</A></h6>
                   <br><br><br>

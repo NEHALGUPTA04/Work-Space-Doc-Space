@@ -2,11 +2,7 @@
     margin: 3px;
     padding:0;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Piazzolla', serif;
-    font-size:x-large;
-
+    font-family: 'Times New Roman', Times, serif;
 }
 body{
     margin-top: 54px;
@@ -24,7 +20,6 @@ body{
 .anchor1{
     color: rgb(23, 23, 172);
     
-    
 }
 .anchor2{
     color: rgb(23, 23, 172);
@@ -34,8 +29,7 @@ body{
     background-color: rgb(35, 35, 100);
     color: white;
     border: 2px solid rgb(35, 35, 100);
-    height: 35px;width: 200px;
-    font-size:x-large;
+    height: 25px;width: 100px;
 
   }
   
@@ -46,9 +40,3 @@ body{
   input{
     width: 200px;
   }
-  .exist{
-      font-size: smaller;
-  }
-.email{
-    width:350px;
-}
