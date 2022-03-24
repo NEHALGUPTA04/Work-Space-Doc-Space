@@ -1,0 +1,15 @@
+*{
+    margin: 15px;
+    padding:0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Piazzolla', serif;
+    font-size:x-large;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    color:black
+}
